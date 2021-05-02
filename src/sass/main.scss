@@ -1,0 +1,39 @@
+
+body{
+   background-color: blue;
+  .container{
+    .row{
+      .col-3{
+        .card{
+          .card-header{
+            h4{
+              color: #ffffff;
+            }
+          }
+          border: 0;
+          background-color: #1DD1A1;
+          box-shadow: 0 0 10px 1px #ffffff;
+          input{
+            border: 0;
+          }
+          select{
+            border: 0;
+          }
+          button{
+            background-color: #18ADF2;
+            border: 0;
+          }
+        }
+      }
+      .col-9{
+        .card{
+          box-shadow: 0 0 15px 1px darkgray;
+          background-color: darkturquoise;
+          table{
+            color: #ffffff;
+          }
+        }
+      }
+    }
+  }
+ }
